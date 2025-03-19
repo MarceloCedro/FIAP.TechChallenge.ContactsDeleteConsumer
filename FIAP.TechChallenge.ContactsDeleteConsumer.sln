@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{2CB6F021-765A-43FE-A835-DAFB94ABE5AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{06611950-C9DF-4211-869F-29951117CB7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapters", "Adapters", "{425BB951-9BA6-40A7-A87C-1FA0F713AC38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Driven", "Driven", "{D0922A22-3F37-4824-B6F8-C6F785357908}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Driver", "Driver", "{E0A61F93-7CCD-407F-A1A6-EF0599036553}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIAP.TechChallenge.ContactsDeleteConsumer.Domain", "ContactsDeleteConsumer.Domain\FIAP.TechChallenge.ContactsDeleteConsumer.Domain.csproj", "{1EFF696C-1433-42C2-90AA-A862DF741802}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIAP.TechChallenge.ContactsDeleteConsumer.Application", "ContactsDeleteConsumer.Application\FIAP.TechChallenge.ContactsDeleteConsumer.Application.csproj", "{6E2994E6-4219-D121-D142-7AB0DBC94E63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIAP.TechChallenge.ContactsDeleteConsumer.Infrastructure", "ContactsDeleteConsumer.Infrastructure\FIAP.TechChallenge.ContactsDeleteConsumer.Infrastructure.csproj", "{D7D3666E-B585-D812-DCB5-39DE3E311938}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIAP.TechChallenge.ContactsDeleteConsumer.Api", "ContactsDeleteConsumer.Api\FIAP.TechChallenge.ContactsDeleteConsumer.Api.csproj", "{A736618B-54F6-F88F-0C5E-902A897BE9E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIAP.TechChallenge.ContactsDeleteConsumer.UnitTest", "ContactsDeleteConsumer.UnitTest\ContactsInsertProducer.UnitTest\FIAP.TechChallenge.ContactsDeleteConsumer.UnitTest.csproj", "{C30A3FFB-C8E4-13A6-ADA2-38AEF5D41CB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIAP.TechChallenge.ContactsDeleteConsumer.IntegrationTests", "ContactsDeleteConsumer.IntegrationTests\FIAP.TechChallenge.ContactsDeleteConsumer.IntegrationTests.csproj", "{AC0BCC58-609B-D17D-A4D1-5DDCC7A6B730}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EFF696C-1433-42C2-90AA-A862DF741802}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EFF696C-1433-42C2-90AA-A862DF741802}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EFF696C-1433-42C2-90AA-A862DF741802}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EFF696C-1433-42C2-90AA-A862DF741802}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E2994E6-4219-D121-D142-7AB0DBC94E63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E2994E6-4219-D121-D142-7AB0DBC94E63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E2994E6-4219-D121-D142-7AB0DBC94E63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E2994E6-4219-D121-D142-7AB0DBC94E63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7D3666E-B585-D812-DCB5-39DE3E311938}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7D3666E-B585-D812-DCB5-39DE3E311938}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7D3666E-B585-D812-DCB5-39DE3E311938}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7D3666E-B585-D812-DCB5-39DE3E311938}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A736618B-54F6-F88F-0C5E-902A897BE9E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A736618B-54F6-F88F-0C5E-902A897BE9E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A736618B-54F6-F88F-0C5E-902A897BE9E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A736618B-54F6-F88F-0C5E-902A897BE9E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C30A3FFB-C8E4-13A6-ADA2-38AEF5D41CB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C30A3FFB-C8E4-13A6-ADA2-38AEF5D41CB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C30A3FFB-C8E4-13A6-ADA2-38AEF5D41CB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C30A3FFB-C8E4-13A6-ADA2-38AEF5D41CB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC0BCC58-609B-D17D-A4D1-5DDCC7A6B730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC0BCC58-609B-D17D-A4D1-5DDCC7A6B730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC0BCC58-609B-D17D-A4D1-5DDCC7A6B730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC0BCC58-609B-D17D-A4D1-5DDCC7A6B730}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{06611950-C9DF-4211-869F-29951117CB7A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{425BB951-9BA6-40A7-A87C-1FA0F713AC38} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{D0922A22-3F37-4824-B6F8-C6F785357908} = {425BB951-9BA6-40A7-A87C-1FA0F713AC38}
+		{E0A61F93-7CCD-407F-A1A6-EF0599036553} = {425BB951-9BA6-40A7-A87C-1FA0F713AC38}
+		{1EFF696C-1433-42C2-90AA-A862DF741802} = {06611950-C9DF-4211-869F-29951117CB7A}
+		{6E2994E6-4219-D121-D142-7AB0DBC94E63} = {06611950-C9DF-4211-869F-29951117CB7A}
+		{D7D3666E-B585-D812-DCB5-39DE3E311938} = {D0922A22-3F37-4824-B6F8-C6F785357908}
+		{A736618B-54F6-F88F-0C5E-902A897BE9E3} = {E0A61F93-7CCD-407F-A1A6-EF0599036553}
+		{C30A3FFB-C8E4-13A6-ADA2-38AEF5D41CB1} = {2CB6F021-765A-43FE-A835-DAFB94ABE5AA}
+		{AC0BCC58-609B-D17D-A4D1-5DDCC7A6B730} = {2CB6F021-765A-43FE-A835-DAFB94ABE5AA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C686E6F5-BF38-488B-BCDD-072A3C720383}
+	EndGlobalSection
+EndGlobal
