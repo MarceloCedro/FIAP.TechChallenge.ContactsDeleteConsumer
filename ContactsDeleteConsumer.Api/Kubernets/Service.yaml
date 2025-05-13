@@ -1,0 +1,15 @@
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: contact-delete-consumer-api-nodeport
+spec:
+  selector:
+    app: contact-delete-consumer-api
+  ports:
+    - protocol: TCP
+      port: 80           # Porta acessada externamente
+      targetPort: 5700   # Porta do container
+      nodePort: 30085    # Porta exposta no n� (opcional)
+  type: NodePort
+---

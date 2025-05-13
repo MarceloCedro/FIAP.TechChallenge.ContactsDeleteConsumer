@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: contact-delete-consumer-api-configmap
+data:
+  QueueName: "Contacts.UpdateQueue"
+  Server: "rabbitmq-clusterip"  
