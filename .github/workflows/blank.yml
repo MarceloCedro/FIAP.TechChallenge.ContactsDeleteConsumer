@@ -57,5 +57,6 @@ jobs:
       - name: Make script executable
         run: chmod +x ./ContactsDeleteConsumer.Api/Kubernets/deploy.sh
 
-      - name: Deploy to AKS
-        run: bash ./ContactsDeleteConsumer.Api/Kubernets/deploy.sh
+      - name: Deploy to AK
+        run: bash deploy.sh        
+        working-directory: ./ContactsDeleteConsumer.Api/Kubernets/
