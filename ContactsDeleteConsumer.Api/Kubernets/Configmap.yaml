@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: contact-delete-consumer-api-configmap
 data:
-  QueueName: "Contacts.UpdateQueue"
+  QueueName: "Contacts.DeleteQueue"
   Server: "rabbitmq-clusterip"  
